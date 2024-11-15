@@ -1292,25 +1292,3 @@ dd {
     color: #2a4f6c; /* Text color on hover */
     border-color: #87a2c4;
 }
-
-
-
-@media (max-width: 480px) {
-    body {
-        margin-top: 4em;
-        font-size: 0.9em;
-    }
-
-    .logo-title h1 {
-        font-size: 1em;
-    }
-
-    #navigation a {
-        font-size: 0.8em;
-        padding: 0.5em 0.8em;
-    }
-
-    #HomePageMain {
-        padding: 1em;
-    }
-}
