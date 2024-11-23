@@ -1061,7 +1061,23 @@ dd {
     display: flex;
 
 }
-
+.CartQuantity11 {
+    display: flex;
+    margin-left: 45%;
+    margin-top: -3%;
+    height: 5%;
+    
+}
+.CartQuantity11 > input {
+    width: 20%;
+   
+   text-align: center;
+   
+}
+.CartQuantity11 button {
+    margin: 0 0.3125em;
+   
+}
 .CartQuantity > input {
     width: 5%;
    text-align: center;
@@ -1229,3 +1245,86 @@ dd {
     background-color: rgb(255, 211, 211);
     color: rgb(150, 130, 143);
 }
+
+
+
+
+
+@media (max-width: 1024px) {
+    header {
+        padding: 0.5em 1em;
+    }
+
+    .logo-title h1 {
+        font-size: 1.2em;
+    }
+
+    #navigation a {
+        font-size: 1em;
+        padding: 0.5em 1em;
+    }
+
+    .offers-container, .custReview-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2%;
+    }
+
+    .offer, .custReview {
+        width: 45%;
+        margin: 1% 0;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        padding: 1em;
+        gap: 1em;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #navigation {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    #logo img {
+        height: 2.5em;
+    }
+
+    .offers-wrapper, .reviews-wrapper, .category-section {
+        width: 100%;
+        padding: 1em;
+    }
+
+    .category-section {
+        background-size: cover;
+        height: auto;
+        margin-top: 0;
+    }
+
+    .categories-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+    }
+
+    .offer, .custReview {
+        width: 100%;
+    }
+
+    footer {
+        padding: 1em;
+        text-align: center;
+        gap: 0.5em;
+    }
+}
+
+
+

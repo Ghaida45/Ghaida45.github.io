@@ -12,7 +12,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
  
-    background-color: #fffefc;
+    background-color: #e7ecf4;
     margin-top: 2%;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -470,11 +470,11 @@ dd {
 }
 
 .breadcrumb a:hover {
-    color: #e4a3a3;
+    color: #6c96b6;
 }
 
 .breadcrumb span {
-    color: #995a5a;
+    color: #153247;
 }
 
 /* Add a new product */
@@ -879,6 +879,20 @@ dd {
 }
 
 /* Product Card Styling */
+/*SellerDashboard*/
+#SellerDashboardMain {
+    padding: 2.5em;
+    margin-top: 5.625em;
+}
+
+#SellerProductContainer {
+    padding: 1.25em;
+    display: flex;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    gap: 1.25em;
+    width: 100%;
+}
 .Product-s {
     border: 0.063em solid #ddd;
     padding: 1.25em;
@@ -1036,6 +1050,37 @@ dd {
     padding: 0.9375em;
     margin-bottom: 0.9375em;
     position: relative;
+}
+
+.CartQuantity {
+    display: flex;
+
+}
+.CartQuantity11 {
+    display: flex;
+    margin-left: 45%;
+    margin-top: -3%;
+    height: 5%;
+    
+}
+.CartQuantity11 > input {
+    width: 20%;
+   
+   text-align: center;
+   
+}
+.CartQuantity11 button {
+    margin: 0 0.3125em;
+   
+}
+.CartQuantity > input {
+    width: 5%;
+   text-align: center;
+}
+
+.CartQuantity button {
+    margin: 0 0.3125em;
+   
 }
 
 .Cart-product-image {
@@ -1291,4 +1336,26 @@ dd {
     background-color: #b0c4de; /* Darker blue background on hover */
     color: #2a4f6c; /* Text color on hover */
     border-color: #87a2c4;
+}
+
+
+
+@media (max-width: 480px) {
+    body {
+        margin-top: 4em;
+        font-size: 0.9em;
+    }
+
+    .logo-title h1 {
+        font-size: 1em;
+    }
+
+    #navigation a {
+        font-size: 0.8em;
+        padding: 0.5em 0.8em;
+    }
+
+    #HomePageMain {
+        padding: 1em;
+    }
 }
