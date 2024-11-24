@@ -1345,10 +1345,6 @@ footer {
     width: 20%;
 }
 
-.offer h3{
-    color: #e2a0a0;
-}
-
 .custReview-container {
     overflow-y: hidden;
     overflow-x: scroll;
@@ -1380,4 +1376,76 @@ footer {
     height: 0.7em;
 }
 
+}
+
+@media (max-width: 480px){
+
+.logo-title h1 {
+    font-size: 0.5em;
+}
+
+#logo img {
+    height: 1em;
+}
+
+
+#navigation a {
+    font-size: 0.3em;
+    padding: 0.5em 1em;
+}
+
+.dropdown select {
+    padding: 0.5em 1em;
+    font-size: 0.3em;
+}
+
+#CartImageHomePage {
+    height: 0.7em;
+    width: 0/7em;
+}
+
+#toggle-theme-button {
+    font-size: 0.3em;
+    padding: 0.5em 0.7em;
+}
+
+.offers-container {
+    overflow-x: scroll;
+}
+
+.offer {
+    width: 30%;
+}
+
+.custReview-container {
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.custReview {
+    height: 15em;
+}
+
+.custReview h3 {
+    font-size: 0.4em;
+}
+ 
+.half-circle {
+    margin-bottom: 7%;
+}
+
+.category img {
+    width: 4.25em;
+    height: 4.25em;
+}
+
+footer {
+    font-size: 0.3em;
+}
+
+.footer-left img {
+    width: 0.5em;
+    height: 0.5em;
+}
+    
 }
