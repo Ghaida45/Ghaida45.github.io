@@ -1394,12 +1394,10 @@ footer {
 
 #navigation a {
     font-size: 0.05em;
-    padding: 0.2em 0.4em;
 }
 
 .dropdown select {
     font-size: 0.05em;
-    padding: 0.2em 0.4em;
 }
 
 #CartImageHomePage {
@@ -1409,7 +1407,6 @@ footer {
 
 #toggle-theme-button {
     font-size: 0.05em;
-    padding: 0.2em 0.4em;
 }
 
 .offers-container {
@@ -1448,10 +1445,6 @@ footer {
 
 footer {
     font-size: 0.05em;
-}
-
-.footer-right {
-    margin-left: 0.2em;
 }
 
 .footer-left img {
