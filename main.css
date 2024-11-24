@@ -1381,22 +1381,25 @@ footer {
 @media (max-width: 480px){
 
 .logo-title h1 {
-    font-size: 0.3em;
+    font-size: 0.1em;
 }
 
 #logo img {
     height: 1em;
 }
 
+#navigation {
+    gap: 0.1em;
+}
 
 #navigation a {
-    font-size: 0.1em;
-    padding: 0.5em 1em;
+    font-size: 0.05em;
+    padding: 0.2em 0.2em;
 }
 
 .dropdown select {
-    padding: 0.5em 1em;
-    font-size: 0.1em;
+    font-size: 0.05em;
+    padding: 0.2em 0.2em;
 }
 
 #CartImageHomePage {
@@ -1405,8 +1408,8 @@ footer {
 }
 
 #toggle-theme-button {
-    font-size: 0.1em;
-    padding: 0.5em 0.7em;
+    font-size: 0.05em;
+    padding: 0.2em 0.2em;
 }
 
 .offers-container {
@@ -1423,7 +1426,7 @@ footer {
 }
 
 .custReview {
-    height: 15em;
+    height: 10em;
 }
 
 .custReview h3 {
