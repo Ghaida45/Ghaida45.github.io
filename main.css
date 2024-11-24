@@ -1389,17 +1389,17 @@ footer {
 }
 
 #navigation {
-    gap: 0.1em;
+    gap: 0.3em;
 }
 
 #navigation a {
     font-size: 0.05em;
-    padding: 0.2em 0.2em;
+    padding: 0.2em 0.4em;
 }
 
 .dropdown select {
     font-size: 0.05em;
-    padding: 0.2em 0.2em;
+    padding: 0.2em 0.4em;
 }
 
 #CartImageHomePage {
@@ -1409,7 +1409,7 @@ footer {
 
 #toggle-theme-button {
     font-size: 0.05em;
-    padding: 0.2em 0.2em;
+    padding: 0.2em 0.4em;
 }
 
 .offers-container {
@@ -1426,7 +1426,7 @@ footer {
 }
 
 .custReview {
-    height: 10em;
+    height: 12em;
 }
 
 .custReview h3 {
@@ -1447,7 +1447,11 @@ footer {
 }
 
 footer {
-    font-size: 0.3em;
+    font-size: 0.05em;
+}
+
+.footer-right {
+    margin-left: 0.2em;
 }
 
 .footer-left img {
